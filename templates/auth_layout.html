@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini panti</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+
+    <style>
+        html,body{
+            height:100%;
+            font-family: 'Kanit', sans-serif;
+        }
+        .auth-box{
+            border: 3px solid lightgray;
+            border-radius: 10px;
+            padding-top: 25px;
+            margin: auto;
+        }
+        .login-from-container{
+            width:300px;
+            margin: auto;
+        }
+        .registration-from-container{
+            width:400px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="mt-4">
+            <div class="auth-box text-center">
+                    {% block content %}
+            
+                    {% endblock %}
+                </div>
+
+    </div>
+    
+    
+</body>
+</html>
