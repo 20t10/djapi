@@ -1,0 +1,1 @@
+Manager isn't available; 'auth.User' has been swapped for 'users.CustomUser'
